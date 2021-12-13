@@ -1,0 +1,42 @@
+* {
+  list-style: none;
+}
+
+nav ul li a:hover {
+  color: lightblue;
+  font-weight: bold;
+  background-color: pink;
+}
+
+.w3:active {
+  color: red;
+  font-style: italic;
+}
+
+.winc:visited {
+  color: yellow;
+}
+
+li input:focus {
+  background-color: green;
+  size: 20px;
+  border-color: aqua;
+}
+
+li {
+  display: inline;
+  padding: 50px;
+}
+
+li:first-child {
+  padding-left: 0;
+}
+
+.menu {
+  background-color: darkblue;
+  padding: 20px;
+}
+
+.currentPage {
+  background-color: grey;
+}
